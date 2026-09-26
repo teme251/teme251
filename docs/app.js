@@ -60,12 +60,12 @@ const projects = {
     links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
   },
   qene: {
-    number: '06', title: 'QENÉ & CODE', summary: 'Music, visual identity, and AI-assisted creative work.',
+    number: '06', title: 'QENÉ & CODE', summary: 'A personal Ethiopian album in thirteen tracks.',
     kicker: 'CREATIVE AI / MUSIC + VISUALS',
-    description: 'A 13-track AI-assisted music and visual release with cover art, lyric visuals, and promotional creative.',
-    build: 'The project connects sound, typography, visual language, and release assets into one coherent creative direction.',
-    status: 'Creative project overview. Visit GitHub for additional work.',
-    links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
+    description: 'A 13-track AI-produced Ethiopian album shaped by personal stories, lyrics, and a visual world that joins heritage with technology.',
+    build: 'I directed the writing, ideas, visual identity, lyric visuals, and release creative, using AI as a production instrument.',
+    status: 'Released September 3, 2026 under the artist name Teme251.',
+    links: [{ label: 'Listen on Apple Music', href: 'https://music.apple.com/album/6803089269' }, { label: 'Visit YouTube channel', href: 'https://www.youtube.com/channel/UCIlEJD_ez00ATB5yejwNp7w' }]
   }
 };
 
@@ -89,7 +89,7 @@ function selectProject(key, fromUser = false) {
   document.getElementById('stage-number').textContent = `${project.number} / 06`;
   document.getElementById('stage-title').textContent = project.title;
   document.getElementById('stage-summary').textContent = project.summary;
-  document.getElementById('stage-link').href = `#project-${key}`;
+  document.getElementById('stage-link').href = key === 'qene' ? '#qene' : `#project-${key}`;
   stage.dataset.active = key;
 }
 function stopRotation() { clearInterval(rotation); rotation = undefined; }
