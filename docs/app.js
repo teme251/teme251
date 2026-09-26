@@ -30,9 +30,12 @@ const projects = {
   student: {
     number: '02', title: 'Student Performance Pattern Analysis', summary: 'Finding useful signals in student data.',
     kicker: 'APPLIED ML / DATA EXPLORATION',
-    description: 'A Python and Streamlit ML project with data preparation, model evaluation, clustering, anomaly detection, and visualizations.',
-    build: 'Python and scikit-learn support the analysis; Streamlit makes results explorable. The work emphasizes interpreting patterns instead of presenting model output without context.',
-    status: 'Project overview. Ask for a walkthrough or visit GitHub for available code.',
+    description: 'Student outcomes can hide several different patterns. This project studies the data with predictive modeling and unsupervised methods, then makes the findings explorable.',
+    build: 'Python handles preparation and analysis, scikit-learn supports model experiments, and Streamlit provides an interactive view of the results.',
+    approach: 'Prepare the dataset, compare model results, explore clusters of similar records, and flag unusual cases for closer inspection. Visualizations connect these outputs back to understandable student patterns.',
+    challenge: 'A prediction, cluster, or outlier is only useful if it survives data-quality checks and can be interpreted without treating correlation as a cause.',
+    evaluation: 'Compare model evaluation results, inspect whether clusters are meaningful, and review anomalies in context. The work presents patterns for exploration rather than a claim that a model determines a student’s outcome.',
+    status: 'Applied ML portfolio project. A public source link is not included here; request a walkthrough of the implementation.',
     links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
   },
   crypto: {
@@ -40,6 +43,9 @@ const projects = {
     kicker: 'SOFTWARE / DATA PRODUCT',
     description: 'A Flask dashboard and Python API for fetching, ranking, and presenting cryptocurrency data.',
     build: 'The application separates data retrieval and ranking logic from the presentation layer, then exposes results in a focused dashboard.',
+    approach: 'A Python API retrieves and ranks market data. Flask presents the resulting list through a dashboard, keeping the ranking logic separate from the interface.',
+    challenge: 'A ranking is only meaningful when the data is current, the ordering rule is understandable, and the interface makes changes easy to inspect.',
+    evaluation: 'Check response behavior for missing or changing data, verify ranking order against known examples, and review whether the dashboard explains the result. This is a data product rather than a trained ML model.',
     status: 'Project overview. Visit GitHub for available code.',
     links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
   },
@@ -48,6 +54,9 @@ const projects = {
     kicker: 'AI APPLICATION / SUPPORT TOOL',
     description: 'A chatbot prototype for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue.',
     build: 'The web experience makes common questions easier to ask and organizes useful answers around the caregiver’s immediate situation.',
+    approach: 'A question-and-answer flow helps a caregiver describe the immediate concern and receive a response suited to that context. The interface is designed around common foster-care questions.',
+    challenge: 'The assistant needs to be clear about what it knows, avoid confident guesses, and make it easy to seek human help when a situation is urgent or outside its scope.',
+    evaluation: 'Review example caregiver questions for relevance, clarity, and unsafe or unsupported advice. This describes how to assess the prototype, not a measured production result.',
     status: 'Project overview. Visit GitHub for available code.',
     links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
   },
@@ -56,6 +65,9 @@ const projects = {
     kicker: 'AI APPLICATION / CONVERSATIONAL UI',
     description: 'A fitness-focused question-and-answer chatbot prototype.',
     build: 'A conversational interface for asking fitness questions and receiving focused responses, with an emphasis on a simple user flow.',
+    approach: 'The prototype takes a fitness question through a conversational interface and returns a focused answer with a short path for continuing the discussion.',
+    challenge: 'A useful fitness assistant must understand the user’s question while avoiding overconfident, one-size-fits-all guidance.',
+    evaluation: 'Test representative questions for relevance and consistency, and inspect where the assistant should ask for more context. This is a prototype, not a clinical or coaching product.',
     status: 'Prototype overview. Visit GitHub for available code.',
     links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
   },
@@ -130,8 +142,16 @@ function openProject(key, trigger) {
   document.getElementById('dialog-kicker').textContent = project.kicker;
   document.getElementById('dialog-title').textContent = project.title;
   document.getElementById('dialog-summary').textContent = project.description;
+  document.getElementById('dialog-build-label').textContent = project.approach ? 'WHAT I BUILT' : 'THE BUILD';
   document.getElementById('dialog-build').textContent = project.build;
   document.getElementById('dialog-status').textContent = project.status;
+  const depth = document.getElementById('dialog-depth');
+  depth.hidden = !project.approach;
+  if (project.approach) {
+    document.getElementById('dialog-approach').textContent = project.approach;
+    document.getElementById('dialog-challenge').textContent = project.challenge;
+    document.getElementById('dialog-evaluation').textContent = project.evaluation;
+  }
   const links = document.getElementById('dialog-links');
   links.replaceChildren(...project.links.map(({ label, href }) => {
     const link = document.createElement('a');
