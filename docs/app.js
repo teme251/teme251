@@ -1,4 +1,20 @@
 const projects = {
+  forecast: {
+    number: 'F1', title: 'US Field Recruitment Forecasting', summary: 'A hiring forecast and review tool.',
+    kicker: 'AVIS BUDGET GROUP / PRIVATE EMPLOYER WORK',
+    description: 'A hiring forecast and review tool with explainable outputs and a Flask interface.',
+    build: 'Hiring forecasts and review views with explainable outputs and a Flask interface.',
+    status: 'Employer project. Code and data are private.',
+    links: [{ label: 'View GitHub project overview', href: 'https://github.com/teme251#ai-and-data-projects' }]
+  },
+  coaching: {
+    number: 'F2', title: 'AI Coaching Dashboard Automation', summary: 'Performance signals for coaching workflows.',
+    kicker: 'AVIS BUDGET GROUP / PRIVATE EMPLOYER WORK',
+    description: 'A role-based prototype that brings performance signals into manager coaching workflows.',
+    build: 'A role-based dashboard prototype for manager coaching workflows.',
+    status: 'Employer project. Code and data are private.',
+    links: [{ label: 'View GitHub project overview', href: 'https://github.com/teme251#ai-and-data-projects' }]
+  },
   rsa: {
     number: '01', title: 'RSA performance tools', summary: 'Frontline scorecards and coaching views.',
     kicker: 'OPERATIONS SOFTWARE / PUBLIC PROTOTYPES',
@@ -12,9 +28,9 @@ const projects = {
     ]
   },
   student: {
-    number: '02', title: 'Student pattern analysis', summary: 'Finding useful signals in student data.',
+    number: '02', title: 'Student Performance Pattern Analysis', summary: 'Finding useful signals in student data.',
     kicker: 'APPLIED ML / DATA EXPLORATION',
-    description: 'An exploration of student data that combines preparation, visual analysis, model evaluation, clustering, and anomaly detection.',
+    description: 'A Python and Streamlit ML project with data preparation, model evaluation, clustering, anomaly detection, and visualizations.',
     build: 'Python and scikit-learn support the analysis; Streamlit makes results explorable. The work emphasizes interpreting patterns instead of presenting model output without context.',
     status: 'Project overview. Ask for a walkthrough or visit GitHub for available code.',
     links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
