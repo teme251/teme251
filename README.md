@@ -1,27 +1,23 @@
 # Teme Wold
 
-**AI engineer · Applied machine learning · Decision tools**  
-Atlanta, Georgia
+**AI and software engineer** · Atlanta, Georgia
 
-I build AI and data products that connect technical work to real operations. My path runs from founding and managing a parking business, to AI/ML engineering at Sapphirus Systems, to airport operations leadership and a 2026 AI Enablement assignment at Avis Budget Group. That mix helps me turn messy workflows into tools people can use.
+I build practical tools for frontline operations, performance reporting, and decision support. My public GitHub work includes the projects below.
 
-## Selected work
+## Projects I built
 
-| Project | What I built | Availability |
-| --- | --- | --- |
-| **US field recruitment forecasting** · Avis Budget Group, 2026 | A hiring forecast and review workflow with explainable calculations, scenario outputs, a Flask interface, and audit documentation. | Private enterprise work; code and data are not public. |
-| **AI coaching dashboard** · Avis Budget Group, 2026 | A prototype bringing customer feedback and workforce signals together to support manager coaching decisions. | Private enterprise work; code and data are not public. |
-| **[Workforce Scenario Lab](https://github.com/teme251/workforce-scenario-lab)** | A Python CLI for synthetic staffing capacity scenarios with explainable formulas, CSV inputs, JSON outputs, and tests. | Independent portfolio demo; no employer data or model. |
-| **[Feedback Theme Lab](https://github.com/teme251/feedback-theme-lab)** | An offline TF-IDF centroid baseline that groups synthetic feedback by theme and abstains on unseen terms. | Independent portfolio demo; tiny invented dataset. |
-| **[Frontline performance dashboard](https://github.com/teme251/rsa-monitor)** | A browser prototype with weighted scorecards, filters, summary metrics, and individual coaching views. | Public code with sample data. |
-| **[Frontline rating portal](https://github.com/teme251/rsa-ops-portal-v3)** and **[reporting view](https://github.com/teme251/RSA-PMS-v3)** | Front-end prototypes for structured observations and performance reporting. | Public prototypes; backend is not included. |
+| Project | What it shows |
+| --- | --- |
+| **[RSA Monitor](https://github.com/teme251/rsa-monitor)** | A browser-based frontline performance dashboard with scorecards, filters, summary metrics, and individual coaching views. Uses sample data. |
+| **[RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3)** | A front-end prototype for structured observations and coaching workflows. |
+| **[RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3)** | A front-end reporting view for frontline performance metrics. |
 
-Earlier at **Sapphirus Systems**, I worked on Python and Azure based AI/ML application components. I hold an **M.S. in Software Engineering with an AI concentration** from Kennesaw State University.
+These are related iterations of my own performance and coaching tools. I also have private project work that I can discuss in an interview.
 
-## Technical focus
+## Tools I use
 
-Python · Flask · scikit-learn · SQL · JavaScript · REST APIs · AWS · Azure AI · data pipelines · LLM applications
+Python · Flask · JavaScript · SQL · data pipelines · dashboards
 
-I am seeking **full-time AI engineering or applied ML roles** where I can take a problem from discovery through a reliable, usable product.
+I am interested in full-time software, AI engineering, and applied ML roles.
 
 [LinkedIn](https://www.linkedin.com/in/teme251/) · [Email](mailto:pmtemesgen@icloud.com)
