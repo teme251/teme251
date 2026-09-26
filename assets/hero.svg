@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Teme Wold — AI engineer and software builder</title>
+  <desc id="desc">Dark blue banner with teal and gold accents, a subtle data grid, and the words Build useful things.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07162c"/>
+      <stop offset=".55" stop-color="#102845"/>
+      <stop offset="1" stop-color="#0a1b31"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#54d8cf"/>
+      <stop offset="1" stop-color="#dfb966"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#6ca1b8" stroke-opacity=".11" stroke-width="1"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="24"/></filter>
+    <style>
+      .pulse { animation: pulse 4s ease-in-out infinite; }
+      .pulse2 { animation: pulse 4s ease-in-out 1.3s infinite; }
+      @keyframes pulse { 0%,100% { opacity: .28 } 50% { opacity: .95 } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <circle cx="980" cy="90" r="105" fill="#23a9ac" opacity=".12" filter="url(#glow)"/>
+  <circle cx="1095" cy="250" r="110" fill="#d6a753" opacity=".11" filter="url(#glow)"/>
+  <path d="M788 230h72l46-47h91l36-36h123" fill="none" stroke="#4dd0c7" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M835 80h54l42 42h95l43 43h87" fill="none" stroke="#d8b76f" stroke-opacity=".42" stroke-width="2"/>
+  <circle cx="860" cy="230" r="5" fill="#61e3d7" class="pulse"/>
+  <circle cx="997" cy="183" r="5" fill="#61e3d7" class="pulse2"/>
+  <circle cx="1033" cy="147" r="5" fill="#f0c979" class="pulse"/>
+  <circle cx="931" cy="122" r="5" fill="#f0c979" class="pulse2"/>
+  <rect x="52" y="47" width="5" height="202" rx="2.5" fill="url(#accent)"/>
+  <text x="86" y="103" fill="#76ded8" font-size="18" font-family="Arial, Helvetica, sans-serif" letter-spacing="3">AI ENGINEERING  /  APPLIED ML</text>
+  <text x="84" y="174" fill="#f5f8fb" font-size="64" font-weight="700" font-family="Arial, Helvetica, sans-serif">Teme Wold</text>
+  <text x="87" y="223" fill="#b4c9d8" font-size="23" font-family="Arial, Helvetica, sans-serif">Build useful things. Make complex work clearer.</text>
+  <path d="M86 250h490" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+</svg>
