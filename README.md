@@ -11,6 +11,8 @@ I build AI and data products that connect technical work to real operations. My 
 | --- | --- | --- |
 | **US field recruitment forecasting** · Avis Budget Group, 2026 | A hiring forecast and review workflow with explainable calculations, scenario outputs, a Flask interface, and audit documentation. | Private enterprise work; code and data are not public. |
 | **AI coaching dashboard** · Avis Budget Group, 2026 | A prototype bringing customer feedback and workforce signals together to support manager coaching decisions. | Private enterprise work; code and data are not public. |
+| **[Workforce Scenario Lab](https://github.com/teme251/workforce-scenario-lab)** | A Python CLI for synthetic staffing capacity scenarios with explainable formulas, CSV inputs, JSON outputs, and tests. | Independent portfolio demo; no employer data or model. |
+| **[Feedback Theme Lab](https://github.com/teme251/feedback-theme-lab)** | An offline TF-IDF centroid baseline that groups synthetic feedback by theme and abstains on unseen terms. | Independent portfolio demo; tiny invented dataset. |
 | **[Frontline performance dashboard](https://github.com/teme251/rsa-monitor)** | A browser prototype with weighted scorecards, filters, summary metrics, and individual coaching views. | Public code with sample data. |
 | **[Frontline rating portal](https://github.com/teme251/rsa-ops-portal-v3)** and **[reporting view](https://github.com/teme251/RSA-PMS-v3)** | Front-end prototypes for structured observations and performance reporting. | Public prototypes; backend is not included. |
 
