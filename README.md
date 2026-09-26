@@ -1,23 +1,37 @@
 # Teme Wold
 
-**AI and software engineer** · Atlanta, Georgia
+**AI engineer · Software builder · Applied machine learning**  
+Atlanta, Georgia
 
-I build practical tools for frontline operations, performance reporting, and decision support. My public GitHub work includes the projects below.
+I build tools that connect AI, data, and real operations. My background includes software engineering, AI application work, frontline operations leadership, and an M.S. in Software Engineering with an AI concentration from Kennesaw State University.
 
-## Projects I built
+## Selected AI and data projects
 
-| Project | What it shows |
-| --- | --- |
-| **[RSA Monitor](https://github.com/teme251/rsa-monitor)** | A browser-based frontline performance dashboard with scorecards, filters, summary metrics, and individual coaching views. Uses sample data. |
-| **[RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3)** | A front-end prototype for structured observations and coaching workflows. |
-| **[RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3)** | A front-end reporting view for frontline performance metrics. |
+| Project | What I built | Status |
+| --- | --- | --- |
+| **US Field Recruitment Forecasting** · Avis Budget Group | A hiring forecast and review tool with explainable outputs and a Flask interface. | Private employer work; code and data are not public. |
+| **AI Coaching Dashboard Automation** · Avis Budget Group | A role-based coaching dashboard prototype that brings performance signals into manager workflows. | Private employer prototype; code and data are not public. |
+| **Student Performance Pattern Analysis** | A Python/Streamlit ML project covering data preparation, model evaluation, clustering, anomaly detection, and visualizations. | Earlier portfolio project; code link withheld while the repository is reviewed. |
+| **Foster Caregiver AI Support** | A chatbot/web app for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue. | Earlier AI application; public code is not available here. |
+| **Crypto Ranking App and CryptoAPI** | A Flask dashboard and Python API for fetching, ranking, and presenting cryptocurrency data. | Earlier application work; public code is not available here. |
+| **MaxFit AI Chatbot** | A fitness question-and-answer chatbot prototype. | Earlier AI application; public code is not available here. |
 
-These are related iterations of my own performance and coaching tools. I also have private project work that I can discuss in an interview.
+## Public software prototypes
 
-## Tools I use
+My **RSA performance and coaching tools** are related iterations of one personal project, built with sample data:
 
-Python · Flask · JavaScript · SQL · data pipelines · dashboards
+- [RSA Monitor](https://github.com/teme251/rsa-monitor) — scorecards, filters, summary metrics, and individual coaching views.
+- [RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3) — structured observation and coaching interface.
+- [RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3) — frontline performance reporting view.
 
-I am interested in full-time software, AI engineering, and applied ML roles.
+## Creative AI work
+
+**QENÉ & CODE** is my AI-assisted music and visual release project. I developed a 13-track album and its cover, lyric visuals, and promotional creative. It is creative work, not a software repository.
+
+## Technical focus
+
+Python · Flask · React · JavaScript · SQL · scikit-learn · data pipelines · dashboards · AI applications
+
+I am seeking a **full-time AI engineering or applied ML role** where I can build useful, reliable products.
 
 [LinkedIn](https://www.linkedin.com/in/teme251/) · [Email](mailto:pmtemesgen@icloud.com)
