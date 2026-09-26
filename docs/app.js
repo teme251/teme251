@@ -81,45 +81,30 @@ const projects = {
   }
 };
 
-const nodes = [...document.querySelectorAll('.node')];
-const stage = document.querySelector('.hero-stage');
-let selected = 'rsa';
-let rotation;
-let userSelected = false;
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-
-function selectProject(key, fromUser = false) {
+const caseTabs = [...document.querySelectorAll('[data-case]')];
+const casePanel = document.getElementById('case-panel');
+function selectCase(key) {
   const project = projects[key];
-  if (!project) return;
-  selected = key;
-  if (fromUser) { userSelected = true; stopRotation(); }
-  nodes.forEach(node => {
-    const active = node.dataset.project === key;
-    node.classList.toggle('is-selected', active);
-    node.setAttribute('aria-pressed', String(active));
+  if (!project || !['forecast', 'coaching'].includes(key)) return;
+  caseTabs.forEach(tab => {
+    const active = tab.dataset.case === key;
+    tab.classList.toggle('is-active', active);
+    tab.setAttribute('aria-selected', String(active));
   });
-  document.getElementById('stage-number').textContent = `${project.number} / 06`;
-  document.getElementById('stage-title').textContent = project.title;
-  document.getElementById('stage-summary').textContent = project.summary;
-  document.getElementById('stage-link').href = key === 'qene' ? '#qene' : `#project-${key}`;
-  stage.dataset.active = key;
+  casePanel.setAttribute('aria-labelledby', `case-tab-${key}`);
+  casePanel.dataset.active = key;
+  document.getElementById('console-count').textContent = key === 'forecast' ? '01 / 02' : '02 / 02';
+  document.getElementById('console-title').textContent = project.title;
+  document.getElementById('console-summary').textContent = project.description;
+  document.getElementById('console-open').dataset.open = key;
 }
-function stopRotation() { clearInterval(rotation); rotation = undefined; }
-function startRotation() {
-  if (userSelected || reducedMotion.matches || document.hidden || rotation) return;
-  rotation = setInterval(() => {
-    const index = nodes.findIndex(node => node.dataset.project === selected);
-    selectProject(nodes[(index + 1) % nodes.length].dataset.project);
-  }, 4800);
-}
-nodes.forEach(node => node.addEventListener('click', () => selectProject(node.dataset.project, true)));
-stage.addEventListener('mouseenter', stopRotation);
-stage.addEventListener('mouseleave', startRotation);
-stage.addEventListener('focusin', stopRotation);
-stage.addEventListener('focusout', event => { if (!stage.contains(event.relatedTarget)) startRotation(); });
-document.addEventListener('visibilitychange', () => document.hidden ? stopRotation() : startRotation());
-reducedMotion.addEventListener?.('change', () => reducedMotion.matches ? stopRotation() : startRotation());
-startRotation();
+caseTabs.forEach(tab => tab.addEventListener('click', () => selectCase(tab.dataset.case)));
+document.querySelector('.console-tabs').addEventListener('keydown', event => {
+  if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+  event.preventDefault();
+  const next = caseTabs.find(tab => tab.getAttribute('aria-selected') !== 'true');
+  next.focus(); selectCase(next.dataset.case);
+});
 
 document.querySelectorAll('.filter').forEach(button => button.addEventListener('click', () => {
   const filter = button.dataset.filter;
@@ -173,6 +158,28 @@ const methodSteps = [
   { glyph: '02 ◇', title: 'Make it usable.', body: 'Turn the insight into a focused prototype. Connect the data, logic, and interface so someone can actually act on the result.' },
   { glyph: '03 ↺', title: 'Learn from the result.', body: 'Test the flow, look for confusion, and improve the details that help the work make sense in practice.' }
 ];
+const aboutStories = {
+  engineer: { label: '01 / ENGINEER', text: 'I hold an M.S. in Software Engineering with an AI concentration from Kennesaw State University. I focus on taking data and AI ideas through to working software.' },
+  operator: { label: '02 / OPERATOR', text: 'Leading teams taught me to look beyond a dashboard number. I design around the decisions people make, the time they have, and the clarity they need.' },
+  creator: { label: '03 / CREATOR', text: 'I also make music and visual work as Teme251. QENÉ & CODE brings Ethiopian storytelling and AI-assisted production into a 13-track release.' }
+};
+const aboutTabs = [...document.querySelectorAll('[data-about]')];
+const aboutPanel = document.getElementById('about-panel');
+function selectAbout(key) {
+  const story = aboutStories[key]; if (!story) return;
+  aboutTabs.forEach(tab => { const active = tab.dataset.about === key; tab.classList.toggle('is-active', active); tab.setAttribute('aria-selected', String(active)); });
+  aboutPanel.setAttribute('aria-labelledby', `about-tab-${key}`);
+  document.getElementById('about-panel-index').textContent = story.label;
+  document.getElementById('about-panel-text').textContent = story.text;
+}
+aboutTabs.forEach(tab => tab.addEventListener('click', () => selectAbout(tab.dataset.about)));
+document.querySelector('.about-selector').addEventListener('keydown', event => {
+  if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+  event.preventDefault();
+  const current = aboutTabs.findIndex(tab => tab.getAttribute('aria-selected') === 'true');
+  const next = aboutTabs[(current + (event.key === 'ArrowRight' ? 1 : aboutTabs.length - 1)) % aboutTabs.length];
+  next.focus(); selectAbout(next.dataset.about);
+});
 const tabs = [...document.querySelectorAll('.method-tab')];
 function activateStep(index) {
   tabs.forEach((tab, i) => {
