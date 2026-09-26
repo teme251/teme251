@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081522">
+  <meta name="description" content="Teme Wold builds AI, software, and creative systems. Explore selected projects and public code.">
+  <title>Teme Wold — AI Engineer & Software Builder</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to projects</a>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Teme Wold, back to top"><span class="brand-mark">TW<span class="brand-dot">.</span></span><span class="brand-caption">TEME WOLD<br>ENGINEER / CREATOR</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#method">Method</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span class="toggle-label">Theme</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> AI ENGINEERING / APPLIED ML / PRODUCT THINKING</p>
+        <h1 id="hero-title">Complex work,<br><em>made clear.</em></h1>
+        <p class="hero-lede">I’m Teme Wold. I turn messy questions into software, data tools, and experiences people can actually use.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↗</span></a>
+          <a class="button button-text" href="https://github.com/teme251" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-foot"><span>BASED IN ATLANTA, GA</span><span class="hero-line"></span><span>SCROLL TO EXPLORE ↓</span></div>
+      </div>
+      <div class="hero-stage">
+        <div class="stage-grid" aria-hidden="true"></div>
+        <svg class="stage-lines" viewBox="0 0 600 600" aria-hidden="true"><path d="M300 300L122 130M300 300L440 93M300 300L498 270M300 300L430 470M300 300L170 485M300 300L80 315"/></svg>
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="core" aria-hidden="true"><span class="core-inner">T/W</span><span class="core-label">SELECT A BUILD</span></div>
+        <button class="node node-1 is-selected" type="button" data-project="rsa" aria-label="Explore RSA performance tools" aria-pressed="true"><span class="node-index">01</span><span class="node-label">RSA tools</span></button>
+        <button class="node node-2" type="button" data-project="student" aria-label="Explore student pattern analysis" aria-pressed="false"><span class="node-index">02</span><span class="node-label">Student ML</span></button>
+        <button class="node node-3" type="button" data-project="crypto" aria-label="Explore crypto ranking app and API" aria-pressed="false"><span class="node-index">03</span><span class="node-label">Crypto API</span></button>
+        <button class="node node-4" type="button" data-project="foster" aria-label="Explore foster caregiver AI support" aria-pressed="false"><span class="node-index">04</span><span class="node-label">Caregiver AI</span></button>
+        <button class="node node-5" type="button" data-project="maxfit" aria-label="Explore MaxFit AI chatbot" aria-pressed="false"><span class="node-index">05</span><span class="node-label">MaxFit</span></button>
+        <button class="node node-6" type="button" data-project="qene" aria-label="Explore QENÉ & CODE" aria-pressed="false"><span class="node-index">06</span><span class="node-label">QENÉ & CODE</span></button>
+        <div class="stage-caption" aria-live="polite"><span id="stage-number">01 / 06</span><strong id="stage-title">RSA performance tools</strong><span id="stage-summary">Frontline scorecards and coaching views.</span><a id="stage-link" href="#project-rsa">Explore project ↗</a></div>
+      </div>
+    </section>
+
+    <div class="signal-bar" aria-hidden="true"><div class="signal-track"><span>OBSERVE</span><b>→</b><span>UNDERSTAND</span><b>→</b><span>BUILD</span><b>→</b><span>IMPROVE</span><i></i></div></div>
+
+    <section id="work" class="section work-section" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Projects with <em>purpose.</em></h2></div><p>A mix of applied ML, practical software, and creative AI. Choose a category or open a project to see how it was made.</p></div>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All work <span>06</span></button>
+        <button type="button" class="filter" data-filter="software" aria-pressed="false">Software <span>03</span></button>
+        <button type="button" class="filter" data-filter="ml" aria-pressed="false">Applied ML <span>01</span></button>
+        <button type="button" class="filter" data-filter="ai" aria-pressed="false">AI apps <span>01</span></button>
+        <button type="button" class="filter" data-filter="creative" aria-pressed="false">Creative <span>01</span></button>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card card-rsa" id="project-rsa" data-category="software"><div class="card-visual visual-rsa" aria-hidden="true"><div class="dash-top"><span>RSA / MONITOR</span><span>● ● ●</span></div><div class="dash-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="dash-row"><span></span><span></span><span></span></div></div><div class="card-body"><div class="card-meta"><span>01 / PUBLIC CODE</span><span>OPERATIONS SOFTWARE</span></div><h3>RSA performance<br>tools</h3><p>Related prototypes for scorecards, observations, performance reporting, and coaching views using sample data.</p><div class="card-bottom"><span>HTML · CSS · JavaScript</span><button type="button" class="card-open" data-open="rsa" aria-label="Explore RSA performance tools">Explore ↗</button></div></div></article>
+        <article class="project-card card-student" id="project-student" data-category="ml"><div class="card-visual visual-student" aria-hidden="true"><div class="scatter-axis"></div><span class="scatter s1"></span><span class="scatter s2"></span><span class="scatter s3"></span><span class="scatter s4"></span><span class="scatter s5"></span><span class="scatter s6"></span><div class="visual-label">PATTERNS / SIGNALS</div></div><div class="card-body"><div class="card-meta"><span>02 / APPLIED ML</span><span>DATA EXPLORATION</span></div><h3>Student pattern<br>analysis</h3><p>Data preparation, model evaluation, clustering, anomaly detection, and interactive visual exploration.</p><div class="card-bottom"><span>Python · scikit-learn · Streamlit</span><button type="button" class="card-open" data-open="student" aria-label="Explore student pattern analysis">Explore ↗</button></div></div></article>
+        <article class="project-card card-crypto" id="project-crypto" data-category="software"><div class="card-visual visual-crypto" aria-hidden="true"><svg viewBox="0 0 400 220"><path d="M0 173C46 176 60 97 103 123S163 188 202 96 280 149 318 62 371 108 400 28" /></svg><div class="crypto-index"><span>RANKING ENGINE</span><strong>API / DATA</strong></div></div><div class="card-body"><div class="card-meta"><span>03 / AI APPLICATION</span><span>DATA PRODUCT</span></div><h3>Crypto ranking<br>app + API</h3><p>A Flask dashboard and Python API for fetching, ranking, and presenting cryptocurrency data.</p><div class="card-bottom"><span>Python · Flask · APIs</span><button type="button" class="card-open" data-open="crypto" aria-label="Explore crypto ranking app and API">Explore ↗</button></div></div></article>
+        <article class="project-card card-foster" id="project-foster" data-category="ai"><div class="card-visual visual-foster" aria-hidden="true"><div class="chat-bubble bubble-a">How can I help?</div><div class="chat-bubble bubble-b">Ask a foster-care question →</div><div class="chat-spark">✦</div></div><div class="card-body"><div class="card-meta"><span>04 / AI APPLICATION</span><span>SUPPORT TOOL</span></div><h3>Foster caregiver<br>AI support</h3><p>A web chatbot for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue.</p><div class="card-bottom"><span>ChatGPT · web app</span><button type="button" class="card-open" data-open="foster" aria-label="Explore foster caregiver AI support">Explore ↗</button></div></div></article>
+        <article class="project-card card-maxfit" id="project-maxfit" data-category="software"><div class="card-visual visual-maxfit" aria-hidden="true"><div class="pulse-ring"></div><div class="pulse-heart">M<span>+</span></div><span class="fit-label">FITNESS / CONVERSATION</span></div><div class="card-body"><div class="card-meta"><span>05 / AI APPLICATION</span><span>CONVERSATIONAL UI</span></div><h3>MaxFit AI<br>chatbot</h3><p>A fitness-focused question-and-answer chatbot prototype.</p><div class="card-bottom"><span>NLP · chatbot</span><button type="button" class="card-open" data-open="maxfit" aria-label="Explore MaxFit AI chatbot">Explore ↗</button></div></div></article>
+        <article class="project-card card-qene" id="project-qene" data-category="creative"><div class="card-visual visual-qene" aria-hidden="true"><div class="record"><div class="record-center">ተሜ<br>251</div></div><span class="qene-mark">QENÉ <i>&</i> CODE</span></div><div class="card-body"><div class="card-meta"><span>06 / CREATIVE AI</span><span>MUSIC + VISUALS</span></div><h3>QENÉ & CODE</h3><p>A 13-track AI-assisted music and visual release with cover art, lyric visuals, and promotional creative.</p><div class="card-bottom"><span>Creative direction · AI media</span><button type="button" class="card-open" data-open="qene" aria-label="Explore QENÉ and CODE">Explore ↗</button></div></div></article>
+      </div>
+      <p class="work-note">For repository history and more project context, visit <a href="https://github.com/teme251" target="_blank" rel="noopener noreferrer">my GitHub profile ↗</a>.</p>
+    </section>
+
+    <section id="method" class="section method-section" aria-labelledby="method-title"><div class="section-heading"><div><p class="eyebrow">02 / HOW I WORK</p><h2 id="method-title">From question to <em>working tool.</em></h2></div><p>Good engineering starts by understanding the people and decisions behind the data.</p></div><div class="method-panel"><div class="method-tabs" role="tablist" aria-label="Working method"><button role="tab" id="tab-1" aria-controls="panel-1" aria-selected="true" class="method-tab is-active" data-step="0"><span>01</span> Understand</button><button role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" class="method-tab" data-step="1"><span>02</span> Build</button><button role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" class="method-tab" data-step="2"><span>03</span> Refine</button></div><div class="method-content" id="panel-1" role="tabpanel" aria-labelledby="tab-1"><span class="method-glyph" aria-hidden="true">01 ↗</span><h3>Find the real problem.</h3><p>Map the workflow, learn what the person needs to decide, and identify where data or software can make the work clearer.</p></div></div></section>
+
+    <section id="about" class="section about-section" aria-labelledby="about-title"><div class="about-number" aria-hidden="true">T/W</div><div><p class="eyebrow">03 / THE PERSON BEHIND THE WORK</p><h2 id="about-title">Built from two worlds:<br><em>engineering and operations.</em></h2><p>I have led real teams and built technical systems. That combination shapes how I work: start with the human need, make the logic understandable, and build something people can put to use.</p><div class="about-facts"><div><span>EDUCATION</span><strong>M.S. Software Engineering<br>AI concentration · KSU</strong></div><div><span>BASE</span><strong>Atlanta, Georgia</strong></div><div><span>FOCUS</span><strong>AI · software · data products</strong></div></div></div></section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title"><p class="eyebrow">04 / CONNECT</p><h2 id="contact-title">Let’s build something<br><em>useful.</em></h2><div class="contact-links"><a href="https://github.com/teme251" target="_blank" rel="noopener noreferrer">Explore GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/teme251/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a><a href="mailto:pmtemesgen@icloud.com">Send an email <span>↗</span></a></div></section>
+  </main>
+
+  <footer><span>© <span id="year">2026</span> TEME WOLD</span><span>MADE WITH PURPOSE · ATLANTA, GA</span><a href="#top">BACK TO TOP ↑</a></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close project details">×</button><div class="dialog-content"><p class="eyebrow" id="dialog-kicker"></p><h2 id="dialog-title"></h2><p class="dialog-summary" id="dialog-summary"></p><div class="dialog-grid"><div><span class="dialog-label">THE BUILD</span><p id="dialog-build"></p></div><div><span class="dialog-label">STATUS & ACCESS</span><p id="dialog-status"></p></div></div><div class="dialog-links" id="dialog-links"></div></div></dialog>
+</body>
+</html>
