@@ -1,4 +1,4 @@
-# Teme Woldesenbet
+# Teme Wold
 
 **AI engineer · Applied machine learning · Decision tools**  
 Atlanta, Georgia
