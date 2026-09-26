@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#081522">
-  <meta name="description" content="Teme Wold builds AI, software, and creative systems. Explore selected projects and public code.">
-  <title>Teme Wold — AI Engineer & Software Builder</title>
-  <link rel="stylesheet" href="styles.css?v=5">
-  <script src="app.js?v=5" defer></script>
+  <meta name="description" content="Teme Wold is an AI engineer building decision tools, applied ML, and software grounded in real operations. Explore flagship projects and public code.">
+  <meta property="og:image" content="https://teme251.github.io/teme251/assets/teme-wold-portrait.webp">
+  <title>Teme Wold — AI Engineer | Selected Work</title>
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script src="app.js?v=6" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#featured">Skip to projects</a>
@@ -15,7 +16,8 @@
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Teme Wold, back to top"><span class="brand-mark">TW<span class="brand-dot">.</span></span><span class="brand-caption">TEME WOLD<br>ENGINEER / CREATOR</span></a>
     <nav class="nav" aria-label="Main navigation">
-      <a href="#featured">Work</a>
+      <a href="#featured">Flagship</a>
+      <a href="#work">Projects</a>
       <a href="#method">Method</a>
       <a href="#about">About</a>
       <a href="#qene">QENÉ & CODE</a>
@@ -27,28 +29,19 @@
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="live-dot"></span> AI ENGINEERING / APPLIED ML / PRODUCT THINKING</p>
-        <h1 id="hero-title">Complex work,<br><em>made clear.</em></h1>
-        <p class="hero-lede">I’m Teme Wold. I turn messy questions into software, data tools, and experiences people can actually use.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#featured">Explore featured work <span aria-hidden="true">↗</span></a>
-          <a class="button button-text" href="https://github.com/teme251" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="hero-foot"><span>BASED IN ATLANTA, GA</span><span class="hero-line"></span><span>SCROLL TO EXPLORE ↓</span></div>
+        <p class="eyebrow"><span class="live-dot"></span> TEME WOLD / AI ENGINEER</p>
+        <h1 id="hero-title">Engineering for<br><em>real decisions.</em></h1>
+        <p class="hero-lede">I build AI and data tools shaped by the work people actually do. My experience spans software engineering and operations leadership, where a useful answer has to be clear enough to act on.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#featured">See the flagship work <span aria-hidden="true">↗</span></a><a class="button button-text" href="#about">Meet Teme <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-proof"><span><b>01</b> AI ENGINEERING</span><span><b>02</b> OPERATIONS</span><span><b>03</b> PRODUCT THINKING</span></div>
       </div>
-      <div class="hero-stage">
-        <div class="stage-grid" aria-hidden="true"></div>
-        <svg class="stage-lines" viewBox="0 0 600 600" aria-hidden="true"><path d="M300 300L122 130M300 300L440 93M300 300L498 270M300 300L430 470M300 300L170 485M300 300L80 315"/></svg>
-        <div class="orbit orbit-one" aria-hidden="true"></div>
-        <div class="orbit orbit-two" aria-hidden="true"></div>
-        <div class="core" aria-hidden="true"><span class="core-inner">T/W</span><span class="core-label">SELECT A BUILD</span></div>
-        <button class="node node-1 is-selected" type="button" data-project="rsa" aria-label="Explore RSA performance tools" aria-pressed="true"><span class="node-index">01</span><span class="node-label">RSA tools</span></button>
-        <button class="node node-2" type="button" data-project="student" aria-label="Explore student pattern analysis" aria-pressed="false"><span class="node-index">02</span><span class="node-label">Student ML</span></button>
-        <button class="node node-3" type="button" data-project="crypto" aria-label="Explore crypto ranking app and API" aria-pressed="false"><span class="node-index">03</span><span class="node-label">Crypto API</span></button>
-        <button class="node node-4" type="button" data-project="foster" aria-label="Explore foster caregiver AI support" aria-pressed="false"><span class="node-index">04</span><span class="node-label">Caregiver AI</span></button>
-        <button class="node node-5" type="button" data-project="maxfit" aria-label="Explore MaxFit AI chatbot" aria-pressed="false"><span class="node-index">05</span><span class="node-label">MaxFit</span></button>
-        <button class="node node-6" type="button" data-project="qene" aria-label="Explore QENÉ & CODE" aria-pressed="false"><span class="node-index">06</span><span class="node-label">QENÉ & CODE</span></button>
-        <div class="stage-caption" aria-live="polite"><span id="stage-number">01 / 06</span><strong id="stage-title">RSA performance tools</strong><span id="stage-summary">Frontline scorecards and coaching views.</span><a id="stage-link" href="#project-rsa">Explore project ↗</a></div>
+      <div class="hero-visual">
+        <figure class="hero-portrait"><img src="assets/teme-wold-portrait.webp" alt="Portrait of Teme Wold" width="900" height="1125" fetchpriority="high"><figcaption><strong>Teme Wold</strong><span>AI engineer · Atlanta, GA</span></figcaption></figure>
+        <div class="hero-console" aria-label="Explore flagship projects">
+          <div class="console-top"><span>SELECTED ENGINEERING WORK</span><span id="console-count">01 / 02</span></div>
+          <div class="console-tabs" role="tablist" aria-label="Flagship projects"><button type="button" role="tab" id="case-tab-forecast" aria-controls="case-panel" aria-selected="true" class="is-active" data-case="forecast">Forecasting</button><button type="button" role="tab" id="case-tab-coaching" aria-controls="case-panel" aria-selected="false" data-case="coaching">AI coaching</button></div>
+          <div id="case-panel" role="tabpanel" aria-labelledby="case-tab-forecast" aria-live="polite"><p class="console-kicker" id="console-kicker">AVIS BUDGET GROUP / PRIVATE WORK</p><h2 id="console-title">US Field Recruitment Forecasting</h2><p id="console-summary">A hiring forecast and review tool with explainable outputs and a Flask interface.</p><div class="console-action"><span>ILLUSTRATIVE PROJECT VIEW</span><button type="button" data-open="forecast" id="console-open">Explore project ↗</button></div></div>
+        </div>
       </div>
     </section>
 
@@ -119,7 +112,7 @@
 
     <section id="method" class="section method-section" aria-labelledby="method-title"><div class="section-heading"><div><p class="eyebrow">04 / HOW I WORK</p><h2 id="method-title">From question to <em>working tool.</em></h2></div><p>Good engineering starts by understanding the people and decisions behind the data.</p></div><div class="method-panel"><div class="method-tabs" role="tablist" aria-label="Working method"><button role="tab" id="tab-1" aria-controls="panel-1" aria-selected="true" class="method-tab is-active" data-step="0"><span>01</span> Understand</button><button role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" class="method-tab" data-step="1"><span>02</span> Build</button><button role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" class="method-tab" data-step="2"><span>03</span> Refine</button></div><div class="method-content" id="panel-1" role="tabpanel" aria-labelledby="tab-1"><span class="method-glyph" aria-hidden="true">01 ↗</span><h3>Find the real problem.</h3><p>Map the workflow, learn what the person needs to decide, and identify where data or software can make the work clearer.</p></div></div></section>
 
-    <section id="about" class="section about-section" aria-labelledby="about-title"><div class="about-number" aria-hidden="true">T/W</div><div><p class="eyebrow">05 / THE PERSON BEHIND THE WORK</p><h2 id="about-title">Built from two worlds:<br><em>engineering and operations.</em></h2><p>I have led real teams and built technical systems. That combination shapes how I work: start with the human need, make the logic understandable, and build something people can put to use.</p><div class="about-facts"><div><span>EDUCATION</span><strong>M.S. Software Engineering<br>AI concentration · KSU</strong></div><div><span>BASE</span><strong>Atlanta, Georgia</strong></div><div><span>FOCUS</span><strong>AI · software · data products</strong></div></div></div></section>
+    <section id="about" class="section about-section" aria-labelledby="about-title"><div class="about-number" aria-hidden="true">T/W</div><div><p class="eyebrow">05 / THE PERSON BEHIND THE WORK</p><h2 id="about-title">Built from two worlds:<br><em>engineering and operations.</em></h2><p>I have built software and led teams where decisions need to hold up in real workflows. That combination shapes how I work: understand the human need, make the logic clear, and build something people can use.</p><div class="about-selector" role="tablist" aria-label="More about Teme"><button type="button" role="tab" id="about-tab-engineer" aria-controls="about-panel" aria-selected="true" class="is-active" data-about="engineer">Engineer</button><button type="button" role="tab" id="about-tab-operator" aria-controls="about-panel" aria-selected="false" data-about="operator">Operator</button><button type="button" role="tab" id="about-tab-creator" aria-controls="about-panel" aria-selected="false" data-about="creator">Creator</button></div><div class="about-panel" id="about-panel" role="tabpanel" aria-labelledby="about-tab-engineer"><span id="about-panel-index">01 / ENGINEER</span><p id="about-panel-text">I hold an M.S. in Software Engineering with an AI concentration from Kennesaw State University. I focus on taking data and AI ideas through to working software.</p></div><div class="about-facts"><div><span>EDUCATION</span><strong>M.S. Software Engineering<br>AI concentration · KSU</strong></div><div><span>BASE</span><strong>Atlanta, Georgia</strong></div><div><span>FOCUS</span><strong>AI · software · data products</strong></div></div></div></section>
 
     <section id="contact" class="section contact-section" aria-labelledby="contact-title"><p class="eyebrow">06 / CONNECT</p><h2 id="contact-title">Let’s build something<br><em>useful.</em></h2><div class="contact-links"><a href="https://github.com/teme251" target="_blank" rel="noopener noreferrer">Explore GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/teme251/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a><a href="mailto:pmtemesgen@icloud.com">Send an email <span>↗</span></a></div></section>
   </main>
