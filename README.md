@@ -1,23 +1,35 @@
-![Teme Wold — AI engineer and software builder](./assets/hero.svg)
+<p align="center">
+  <img src="./docs/assets/teme-wold-portrait.webp" alt="Portrait of Teme Wold" width="210">
+</p>
 
-# Teme Wold
-
-I build software and AI tools shaped by hands-on operations work. My path spans entrepreneurship, AI application development, frontline operations leadership, and an M.S. in Software Engineering with an AI concentration from Kennesaw State University.
-
-**Explore:** [AI and data projects](#ai-and-data-projects) · [Public code](#public-code) · [Recent updates](#recent-public-code-updates) · [Creative AI](#creative-ai)
+<h1 align="center">Teme Wold</h1>
+<p align="center"><strong>AI engineer · Software builder · Operations-minded problem solver</strong></p>
+<p align="center">I build data and AI tools that make difficult decisions easier to understand and act on.</p>
+<p align="center">
+  <a href="https://teme251.github.io/teme251/">Explore the interactive portfolio</a> ·
+  <a href="https://www.linkedin.com/in/teme251/">LinkedIn</a> ·
+  <a href="mailto:pmtemesgen@icloud.com">Email</a>
+</p>
 
 ## AI and data projects
 
-| Project | What I built |
+My flagship work connects engineering to day-to-day decisions. The portfolio opens with an interactive spotlight on these two projects:
+
+| Flagship project | What I built |
 | --- | --- |
-| **US Field Recruitment Forecasting** · Avis Budget Group | A hiring forecast and review tool with explainable outputs and a Flask interface. |
-| **AI Coaching Dashboard Automation** · Avis Budget Group | A role-based prototype that brings performance signals into manager coaching workflows. |
+| **01 · US Field Recruitment Forecasting** · Avis Budget Group | A hiring forecast and review tool with explainable outputs and a Flask interface. |
+| **02 · AI Coaching Dashboard Automation** · Avis Budget Group | A role-based prototype that brings performance signals into manager coaching workflows. |
+
+The Avis projects are employer work. Their code and data are private. [Explore the project spotlight →](https://teme251.github.io/teme251/#featured)
+
+### Applied ML and AI applications
+
+| Project | Focus |
+| --- | --- |
 | **Student Performance Pattern Analysis** | A Python and Streamlit ML project with data preparation, model evaluation, clustering, anomaly detection, and visualizations. |
 | **Foster Caregiver AI Support** | A chatbot and web app for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue. |
 | **Crypto Ranking App and CryptoAPI** | A Flask dashboard and Python API for fetching, ranking, and presenting cryptocurrency data. |
 | **MaxFit AI Chatbot** | A fitness question-and-answer chatbot prototype. |
-
-The Avis projects are employer work; their code and data remain private. Earlier application projects are described without public demo links.
 
 ## Public code
 
@@ -41,12 +53,12 @@ These are related versions of my personal **RSA performance and coaching** proje
 
 <sub>This section refreshes weekly from the three public repositories above.</sub>
 
+## About me
+
+I hold an **M.S. in Software Engineering with an AI concentration** from Kennesaw State University. My path spans building software, leading teams, and creating tools for the people making decisions in the field. That perspective shapes the way I work: understand the need, make the logic clear, and build for use.
+
+**Tools:** `Python` · `Flask` · `React` · `JavaScript` · `SQL` · `scikit-learn` · data pipelines · dashboards · AI applications
+
 ## Creative AI
 
-**QENÉ & CODE** is my AI-assisted music and visual release project: a 13-track album with cover art, lyric visuals, and promotional creative.
-
-## Tools
-
-`Python` · `Flask` · `React` · `JavaScript` · `SQL` · `scikit-learn` · data pipelines · dashboards · AI applications
-
-[LinkedIn](https://www.linkedin.com/in/teme251/) · [Email](mailto:pmtemesgen@icloud.com)
+**[QENÉ & CODE](https://teme251.github.io/teme251/#qene)** is my 13-track AI-produced Ethiopian album and visual storytelling project under the artist name Teme251.
