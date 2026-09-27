@@ -61,6 +61,6 @@ I hold an **M.S. in Software Engineering with an AI concentration** from Kennesa
 
 ## Creative AI
 
-**[QENÉ & CODE](https://teme251.github.io/teme251/#qene)** is my 13-track AI-produced Ethiopian album and visual storytelling project under the artist name Teme251.
+**[QENÉ & CODE](https://teme251.github.io/teme251/music.html)** is my 13-track AI-produced Ethiopian album and visual storytelling project under the artist name Teme251.
 
 [Apple Music](https://music.apple.com/album/6803089269) · [YouTube](https://www.youtube.com/channel/UCIlEJD_ez00ATB5yejwNp7w) · [Instagram](https://www.instagram.com/teme251/) · [Facebook](https://www.facebook.com/Teme251/)

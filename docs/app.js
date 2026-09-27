@@ -37,7 +37,7 @@ const projects = {
     challenge: 'A prediction, cluster, or outlier is only useful if it survives data-quality checks and can be interpreted without treating correlation as a cause.',
     evaluation: 'Compare model evaluation results, inspect whether clusters are meaningful, and review anomalies in context. The work presents patterns for exploration rather than a claim that a model determines a student’s outcome.',
     status: 'Applied ML portfolio project. A public source link is not included here; request a walkthrough of the implementation.',
-    links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
+    links: [{ label: 'Request a project walkthrough', href: 'mailto:pmtemesgen@icloud.com?subject=Project%20walkthrough' }]
   },
   crypto: {
     number: '03', title: 'Crypto ranking app + API', summary: 'A data pipeline turned into a usable dashboard.',
@@ -47,8 +47,8 @@ const projects = {
     approach: 'A Python API retrieves and ranks market data. Flask presents the resulting list through a dashboard, keeping the ranking logic separate from the interface.',
     challenge: 'A ranking is only meaningful when the data is current, the ordering rule is understandable, and the interface makes changes easy to inspect.',
     evaluation: 'Check response behavior for missing or changing data, verify ranking order against known examples, and review whether the dashboard explains the result. This is a data product rather than a trained ML model.',
-    status: 'Project overview. Visit GitHub for available code.',
-    links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
+    status: 'Project overview. Contact me for an implementation walkthrough.',
+    links: [{ label: 'Request a project walkthrough', href: 'mailto:pmtemesgen@icloud.com?subject=Project%20walkthrough' }]
   },
   foster: {
     number: '04', title: 'Foster caregiver AI support', summary: 'Answers shaped around a caregiver’s needs.',
@@ -58,8 +58,8 @@ const projects = {
     approach: 'A question-and-answer flow helps a caregiver describe the immediate concern and receive a response suited to that context. The interface is designed around common foster-care questions.',
     challenge: 'The assistant needs to be clear about what it knows, avoid confident guesses, and make it easy to seek human help when a situation is urgent or outside its scope.',
     evaluation: 'Review example caregiver questions for relevance, clarity, and unsafe or unsupported advice. This describes how to assess the prototype, not a measured production result.',
-    status: 'Project overview. Visit GitHub for available code.',
-    links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
+    status: 'Project overview. Contact me for an implementation walkthrough.',
+    links: [{ label: 'Request a project walkthrough', href: 'mailto:pmtemesgen@icloud.com?subject=Project%20walkthrough' }]
   },
   maxfit: {
     number: '05', title: 'MaxFit AI chatbot', summary: 'A fitness-focused conversational prototype.',
@@ -69,8 +69,8 @@ const projects = {
     approach: 'The prototype takes a fitness question through a conversational interface and returns a focused answer with a short path for continuing the discussion.',
     challenge: 'A useful fitness assistant must understand the user’s question while avoiding overconfident, one-size-fits-all guidance.',
     evaluation: 'Test representative questions for relevance and consistency, and inspect where the assistant should ask for more context. This is a prototype, not a clinical or coaching product.',
-    status: 'Prototype overview. Visit GitHub for available code.',
-    links: [{ label: 'View GitHub profile', href: 'https://github.com/teme251' }]
+    status: 'Prototype overview. Contact me for a walkthrough.',
+    links: [{ label: 'Request a project walkthrough', href: 'mailto:pmtemesgen@icloud.com?subject=Project%20walkthrough' }]
   },
   qene: {
     number: '06', title: 'QENÉ & CODE', summary: 'A personal Ethiopian album in thirteen tracks.',
@@ -78,7 +78,7 @@ const projects = {
     description: 'A 13-track AI-produced Ethiopian album shaped by personal stories, lyrics, and a visual world that joins heritage with technology.',
     build: 'I directed the writing, ideas, visual identity, lyric visuals, and release creative, using AI as a production instrument.',
     status: 'Released September 3, 2026 under the artist name Teme251.',
-    links: [{ label: 'Listen on Apple Music', href: 'https://music.apple.com/album/6803089269' }, { label: 'Visit YouTube channel', href: 'https://www.youtube.com/channel/UCIlEJD_ez00ATB5yejwNp7w' }]
+    links: [{ label: 'Explore the music page', href: 'music.html' }, { label: 'Listen on Apple Music', href: 'https://music.apple.com/album/6803089269' }, { label: 'Visit YouTube channel', href: 'https://www.youtube.com/channel/UCIlEJD_ez00ATB5yejwNp7w' }]
   }
 };
 
