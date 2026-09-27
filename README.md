@@ -57,7 +57,20 @@ The **[RSA Operational Analytics & Performance Review](https://teme251.github.io
 
 I hold an **M.S. in Software Engineering with an AI concentration** from Kennesaw State University. My path spans building software, leading teams, and creating tools for the people making decisions in the field. That perspective shapes the way I work: understand the need, make the logic clear, and build for use.
 
-**Tools:** `Python` · `Flask` · `React` · `JavaScript` · `SQL` · `scikit-learn` · data pipelines · dashboards · AI applications
+### Engineering capabilities & toolkit
+
+| Area | Focus | Tools |
+| --- | --- | --- |
+| Applied machine learning | Feature preparation, model evaluation, clustering, anomaly analysis | Python, scikit-learn, Streamlit |
+| Application engineering | Application logic, web interfaces, API integration | Python, JavaScript, React, Flask, HTML, CSS |
+| Data & visualization | Structured data contracts and reporting interfaces | SQL, JSON, APIs, Chart.js |
+| Cloud & development workflow | Cloud tooling, version control, AI-assisted development | AWS, Git, GitHub, Kiro |
+
+**AI-assisted workflow:** Claude · ChatGPT / Codex. **Creative production:** Suno · Higgsfield.
+
+My background includes entrepreneurship at **Priority Parking Solutions**, AI/software experience at **Sapphirus Systems**, and operations leadership and an **AI Enablement assignment at Avis Budget Group**.
+
+[Explore experience, capabilities, and education](https://teme251.github.io/teme251/background.html)
 
 ## Creative AI
 
