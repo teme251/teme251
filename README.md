@@ -17,8 +17,8 @@ My work connects software engineering to operational decisions. Start with these
 
 | Flagship project | What I built |
 | --- | --- |
-| **[01 · US Field Recruitment Forecasting](https://teme251.github.io/teme251/project-forecast.html)** · Avis Budget Group | A workforce decision-support application combining hiring forecasts, explainable outputs, and structured review views through a Flask interface. |
-| **[02 · AI Coaching Dashboard Automation](https://teme251.github.io/teme251/project-coaching.html)** · Avis Budget Group | A role-based performance dashboard prototype that connects performance signals with manager coaching workflows. |
+| **[01 · US Workforce Forecasting & Decision Support](https://teme251.github.io/teme251/project-forecast.html)** · Avis Budget Group | A workforce planning application that connects recruitment forecasting with explainable analytical outputs and structured human review. The project focuses on translating forecasts into a coherent decision-support experience for hiring decisions. |
+| **[02 · AI-Assisted Performance Intelligence & Coaching](https://teme251.github.io/teme251/project-coaching.html)** · Avis Budget Group | An AI-assisted coaching prototype that connects performance analytics, role-based information access, and managerial review. The project focuses on bringing performance signals into the context of coaching decisions through an integrated application experience. |
 
 The Avis projects are employer work. Their code and data are private. [Explore selected work →](https://teme251.github.io/teme251/#featured)
 
