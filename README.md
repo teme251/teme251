@@ -4,7 +4,7 @@
 
 <h1 align="center">Teme Wold</h1>
 <p align="center"><strong>AI engineer · Software builder · Operations-minded problem solver</strong></p>
-<p align="center">I build data and AI tools that make difficult decisions easier to understand and act on.</p>
+<p align="center">I’m Teme, an AI engineer with a background in software, entrepreneurship, and operations leadership. I build practical AI applications, data tools, and decision interfaces.</p>
 <p align="center">
   <a href="https://teme251.github.io/teme251/">Explore the interactive portfolio</a> ·
   <a href="https://www.linkedin.com/in/teme251/">LinkedIn</a> ·
@@ -13,7 +13,7 @@
 
 ## AI and data projects
 
-My flagship work connects engineering to day-to-day decisions. The portfolio opens with an interactive spotlight on these two projects:
+My work connects software engineering to operational decisions. Start with these two projects, then explore applied ML, AI applications, and public prototypes:
 
 | Flagship project | What I built |
 | --- | --- |

@@ -82,32 +82,6 @@ const projects = {
   }
 };
 
-const caseTabs = [...document.querySelectorAll('[data-case]')];
-const casePanel = document.getElementById('case-panel');
-function selectCase(key) {
-  const project = projects[key];
-  if (!project || !['forecast', 'coaching'].includes(key)) return;
-  caseTabs.forEach(tab => {
-    const active = tab.dataset.case === key;
-    tab.classList.toggle('is-active', active);
-    tab.setAttribute('aria-selected', String(active));
-    tab.tabIndex = active ? 0 : -1;
-  });
-  casePanel.setAttribute('aria-labelledby', `case-tab-${key}`);
-  casePanel.dataset.active = key;
-  document.getElementById('console-count').textContent = key === 'forecast' ? '01 / 02' : '02 / 02';
-  document.getElementById('console-title').textContent = project.title;
-  document.getElementById('console-summary').textContent = project.description;
-  document.getElementById('console-open').dataset.open = key;
-}
-caseTabs.forEach(tab => tab.addEventListener('click', () => selectCase(tab.dataset.case)));
-document.querySelector('.console-tabs').addEventListener('keydown', event => {
-  if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
-  event.preventDefault();
-  const next = caseTabs.find(tab => tab.getAttribute('aria-selected') !== 'true');
-  next.focus(); selectCase(next.dataset.case);
-});
-
 document.querySelectorAll('.filter').forEach(button => button.addEventListener('click', () => {
   const filter = button.dataset.filter;
   document.querySelectorAll('.filter').forEach(item => {
