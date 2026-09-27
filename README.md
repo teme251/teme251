@@ -3,8 +3,8 @@
 </p>
 
 <h1 align="center">Teme Wold</h1>
-<p align="center"><strong>AI engineer · Software builder · Operations-minded problem solver</strong></p>
-<p align="center">I’m Teme, an AI engineer with a background in software, entrepreneurship, and operations leadership. I build practical AI applications, data tools, and decision interfaces.</p>
+<p align="center"><strong>AI Engineer · Entrepreneur</strong></p>
+<p align="center">I combine applied AI, software engineering, and entrepreneurial thinking to turn ideas into working products. My strength is connecting technical possibilities with real human and business needs—defining the problem, designing the solution, and building the software that brings it to life.</p>
 <p align="center">
   <a href="https://teme251.github.io/teme251/">Explore the interactive portfolio</a> ·
   <a href="https://www.linkedin.com/in/teme251/">LinkedIn</a> ·
