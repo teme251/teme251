@@ -1,3 +1,4 @@
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const projects = {
   forecast: {
     number: 'F1', title: 'US Field Recruitment Forecasting', summary: 'A hiring forecast and review tool.',
@@ -90,6 +91,7 @@ function selectCase(key) {
     const active = tab.dataset.case === key;
     tab.classList.toggle('is-active', active);
     tab.setAttribute('aria-selected', String(active));
+    tab.tabIndex = active ? 0 : -1;
   });
   casePanel.setAttribute('aria-labelledby', `case-tab-${key}`);
   casePanel.dataset.active = key;
@@ -146,12 +148,29 @@ function openProject(key, trigger) {
     link.rel = 'noopener noreferrer';
     return link;
   }));
-  dialog.showModal();
+  document.getElementById('project-permalink').href = `#case-${key}`;
+  document.getElementById('copy-status').textContent = '';
+  history.replaceState(null, '', `#case-${key}`);
+  if (!dialog.open) dialog.showModal();
 }
 document.querySelectorAll('[data-open]').forEach(button => button.addEventListener('click', () => openProject(button.dataset.open, button)));
 document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
-dialog.addEventListener('close', () => lastTrigger?.focus());
+dialog.addEventListener('close', () => {
+  if (location.hash.startsWith('#case-')) history.replaceState(null, '', '#featured');
+  lastTrigger?.focus();
+});
+function openLinkedProject() {
+  const key = location.hash.startsWith('#case-') ? location.hash.slice(6) : '';
+  if (projects[key]) openProject(key, document.querySelector(`[data-open="${key}"]`));
+}
+window.addEventListener('hashchange', openLinkedProject);
+openLinkedProject();
+document.getElementById('copy-project-link').addEventListener('click', async () => {
+  const status = document.getElementById('copy-status');
+  try { await navigator.clipboard.writeText(location.href); status.textContent = 'Link copied'; }
+  catch { status.textContent = 'Use the direct link or copy the address bar.'; }
+});
 
 const methodSteps = [
   { glyph: '01 ↗', title: 'Find the real problem.', body: 'Map the workflow, learn what the person needs to decide, and identify where data or software can make the work clearer.' },
@@ -228,3 +247,11 @@ if (window.matchMedia('(pointer: fine)').matches && !reducedMotion.matches) {
   }, { passive: true });
 }
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Mobile navigation keeps every section reachable.
+const menuButton = document.querySelector('.menu-toggle');
+const navigation = document.getElementById('main-nav');
+function closeMenu() { menuButton.setAttribute('aria-expanded', 'false'); navigation.classList.remove('is-open'); }
+menuButton.addEventListener('click', () => { const open = menuButton.getAttribute('aria-expanded') !== 'true'; menuButton.setAttribute('aria-expanded', String(open)); navigation.classList.toggle('is-open', open); });
+navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+document.addEventListener('keydown', event => { if (event.key === 'Escape' && navigation.classList.contains('is-open')) { closeMenu(); menuButton.focus(); } });
