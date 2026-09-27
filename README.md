@@ -17,8 +17,8 @@ My work connects software engineering to operational decisions. Start with these
 
 | Flagship project | What I built |
 | --- | --- |
-| **[01 · US Field Recruitment Forecasting](https://teme251.github.io/teme251/project-forecast.html)** · Avis Budget Group | A hiring forecast and review tool with explainable outputs and a Flask interface. |
-| **[02 · AI Coaching Dashboard Automation](https://teme251.github.io/teme251/project-coaching.html)** · Avis Budget Group | A role-based prototype that brings performance signals into manager coaching workflows. |
+| **[01 · US Field Recruitment Forecasting](https://teme251.github.io/teme251/project-forecast.html)** · Avis Budget Group | A workforce decision-support application combining hiring forecasts, explainable outputs, and structured review views through a Flask interface. |
+| **[02 · AI Coaching Dashboard Automation](https://teme251.github.io/teme251/project-coaching.html)** · Avis Budget Group | A role-based performance dashboard prototype that connects performance signals with manager coaching workflows. |
 
 The Avis projects are employer work. Their code and data are private. [Explore selected work →](https://teme251.github.io/teme251/#featured)
 
@@ -26,9 +26,9 @@ The Avis projects are employer work. Their code and data are private. [Explore s
 
 | Project | Focus |
 | --- | --- |
-| **[Student Performance Pattern Analysis](https://teme251.github.io/teme251/project-student.html)** | A Python and Streamlit ML project with data preparation, model evaluation, clustering, anomaly detection, and visualizations. |
+| **[Student Performance Pattern Analysis](https://teme251.github.io/teme251/project-student.html)** | An applied ML workflow using Python, scikit-learn, and Streamlit for categorical encoding, predictive model evaluation, clustering, anomaly detection, and interactive analysis. |
 | **[Foster Caregiver AI Support](https://teme251.github.io/teme251/project-foster.html)** | A chatbot and web app for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue. |
-| **[Crypto Ranking App and CryptoAPI](https://teme251.github.io/teme251/project-crypto.html)** | A Flask dashboard and Python API for fetching, ranking, and presenting cryptocurrency data. |
+| **[Crypto Ranking App and CryptoAPI](https://teme251.github.io/teme251/project-crypto.html)** | An API-driven data application separating market-data retrieval and ranking logic from a Flask presentation layer. |
 | **[MaxFit AI Chatbot](https://teme251.github.io/teme251/project-maxfit.html)** | A fitness question-and-answer chatbot prototype. |
 
 ## Public code
