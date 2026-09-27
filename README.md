@@ -20,35 +20,35 @@ My work connects software engineering to operational decisions. Start with these
 | **[01 · US Workforce Forecasting & Decision Support](https://teme251.github.io/teme251/project-forecast.html)** · Avis Budget Group | A workforce planning application that connects recruitment forecasting with explainable analytical outputs and structured human review. The project focuses on translating forecasts into a coherent decision-support experience for hiring decisions. |
 | **[02 · AI-Assisted Performance Intelligence & Coaching](https://teme251.github.io/teme251/project-coaching.html)** · Avis Budget Group | An AI-assisted coaching prototype that connects performance analytics, role-based information access, and managerial review. The project focuses on bringing performance signals into the context of coaching decisions through an integrated application experience. |
 
-The Avis projects are employer work. Their code and data are private. [Explore selected work →](https://teme251.github.io/teme251/#featured)
+The Avis projects are employer work. Their code and data are private. [Explore the project directory](https://teme251.github.io/teme251/projects.html)
 
-### Applied ML and AI applications
+### Applied machine learning, data engineering & conversational AI
 
 | Project | Focus |
 | --- | --- |
-| **[Student Performance Pattern Analysis](https://teme251.github.io/teme251/project-student.html)** | An applied ML workflow using Python, scikit-learn, and Streamlit for categorical encoding, predictive model evaluation, clustering, anomaly detection, and interactive analysis. |
-| **[Foster Caregiver AI Support](https://teme251.github.io/teme251/project-foster.html)** | A chatbot and web app for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue. |
-| **[Crypto Ranking App and CryptoAPI](https://teme251.github.io/teme251/project-crypto.html)** | An API-driven data application separating market-data retrieval and ranking logic from a Flask presentation layer. |
-| **[MaxFit AI Chatbot](https://teme251.github.io/teme251/project-maxfit.html)** | A fitness question-and-answer chatbot prototype. |
+| **[Student Outcomes Modeling & Pattern Discovery](https://teme251.github.io/teme251/project-student.html)** | An applied machine-learning study combining predictive modeling with unsupervised pattern discovery. The workflow connects feature preparation, model evaluation, clustering, and anomaly analysis to interpretable exploration of student assessment data. |
+| **[Foster Caregiver Conversational AI Support](https://teme251.github.io/teme251/project-foster.html)** | A domain-focused conversational AI prototype for Angels Among Us Pet Rescue, designed to connect caregiver questions with context-relevant guidance. The work centers on response relevance, dialogue design, and clear boundaries for an applied support experience. |
+| **[Digital Asset Data Integration & Ranking Analytics](https://teme251.github.io/teme251/project-crypto.html)** | An API-driven analytical application that transforms cryptocurrency market data into a ranked, inspectable information product. The architecture separates data acquisition, ranking rules, and presentation to make the analytical workflow easier to reason about. |
+| **[MaxFit Conversational AI for Fitness Guidance](https://teme251.github.io/teme251/project-maxfit.html)** | A conversational AI prototype exploring how fitness questions can be translated into focused, understandable responses. The project examines question interpretation, response quality, and follow-up interaction within a clearly defined application domain. |
 
 ## Public code
 
-These are related versions of my personal **RSA performance and coaching** project, built with sample data.
+The **[RSA Operational Analytics & Performance Review](https://teme251.github.io/teme251/project-rsa.html)** project family explores observation capture, performance analysis, and coaching review through three related front-end prototypes.
 
 | Repository | Explore |
 | --- | --- |
-| **[RSA Monitor](https://github.com/teme251/rsa-monitor)** | Scorecards, filters, summary metrics, and individual coaching views. |
-| **[RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3)** | Structured observation and coaching interface. |
-| **[RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3)** | Frontline performance reporting view. |
+| **[RSA Monitor](https://github.com/teme251/rsa-monitor)** | Weighted scorecards, searchable and sortable records, and individual coaching context. |
+| **[RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3)** | Structured observation capture, category ratings, checklist responses, and JSON submission. |
+| **[RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3)** | Date-range analysis, category aggregates, checklist completion, and Chart.js trend views. |
 
 ### Recent public code updates
 
 <!-- ACTIVITY:START -->
 | Project | Last public update | Commit |
 | --- | --- | --- |
-| [RSA Monitor](https://github.com/teme251/rsa-monitor) | 2026-09-26 | [`2646b26`](https://github.com/teme251/rsa-monitor/commit/2646b2640a5458e337e408a363d9335bcb745574) |
-| [RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3) | 2026-09-26 | [`da8547f`](https://github.com/teme251/rsa-ops-portal-v3/commit/da8547f9d650fc0bff3695b5f24e3232327d401a) |
-| [RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3) | 2026-09-26 | [`f10f13f`](https://github.com/teme251/RSA-PMS-v3/commit/f10f13fffb395771d0f9c7d4cdd686cfb27312fc) |
+| [RSA Monitor](https://github.com/teme251/rsa-monitor) | 2026-09-27 | [`2245827`](https://github.com/teme251/rsa-monitor/commit/22458273fce5d9056bd715c6e8eacf5f68e3aa60) |
+| [RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3) | 2026-09-27 | [`e145995`](https://github.com/teme251/rsa-ops-portal-v3/commit/e145995f004019d3ecb8ecb0e8d028cdf627b798) |
+| [RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3) | 2026-09-27 | [`6259081`](https://github.com/teme251/RSA-PMS-v3/commit/62590810ba856ca6e6ccf1cbdd744d95d3352862) |
 <!-- ACTIVITY:END -->
 
 <sub>This section refreshes weekly from the three public repositories above.</sub>
@@ -61,6 +61,6 @@ I hold an **M.S. in Software Engineering with an AI concentration** from Kennesa
 
 ## Creative AI
 
-**[QENÉ & CODE](https://teme251.github.io/teme251/music.html)** is my 13-track AI-produced Ethiopian album and visual storytelling project under the artist name Teme251.
+**[QENÉ & CODE](https://teme251.github.io/teme251/music.html)** is an AI-directed music and visual storytelling project under the artist name Teme251. The 13-track Ethiopian album connects personal writing, creative direction, AI-enabled production, and a cohesive visual identity.
 
 [Apple Music](https://music.apple.com/album/6803089269) · [YouTube](https://www.youtube.com/channel/UCIlEJD_ez00ATB5yejwNp7w) · [Instagram](https://www.instagram.com/teme251/) · [Facebook](https://www.facebook.com/Teme251/)
