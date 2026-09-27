@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Teme Wold</h1>
-<p align="center"><strong>AI Engineer · Entrepreneur</strong></p>
+<p align="center"><strong>AI Engineer</strong></p>
 <p align="center">I combine applied AI, software engineering, and entrepreneurial thinking to turn ideas into working products. My strength is connecting technical possibilities with real human and business needs—defining the problem, designing the solution, and building the software that brings it to life.</p>
 <p align="center">
   <a href="https://teme251.github.io/teme251/">Explore the interactive portfolio</a> ·
@@ -17,19 +17,19 @@ My work connects software engineering to operational decisions. Start with these
 
 | Flagship project | What I built |
 | --- | --- |
-| **[01 · US Field Recruitment Forecasting](https://teme251.github.io/teme251/#case-forecast)** · Avis Budget Group | A hiring forecast and review tool with explainable outputs and a Flask interface. |
-| **[02 · AI Coaching Dashboard Automation](https://teme251.github.io/teme251/#case-coaching)** · Avis Budget Group | A role-based prototype that brings performance signals into manager coaching workflows. |
+| **[01 · US Field Recruitment Forecasting](https://teme251.github.io/teme251/project-forecast.html)** · Avis Budget Group | A hiring forecast and review tool with explainable outputs and a Flask interface. |
+| **[02 · AI Coaching Dashboard Automation](https://teme251.github.io/teme251/project-coaching.html)** · Avis Budget Group | A role-based prototype that brings performance signals into manager coaching workflows. |
 
-The Avis projects are employer work. Their code and data are private. [Explore the project spotlight →](https://teme251.github.io/teme251/#featured)
+The Avis projects are employer work. Their code and data are private. [Explore selected work →](https://teme251.github.io/teme251/#featured)
 
 ### Applied ML and AI applications
 
 | Project | Focus |
 | --- | --- |
-| **[Student Performance Pattern Analysis](https://teme251.github.io/teme251/#case-student)** | A Python and Streamlit ML project with data preparation, model evaluation, clustering, anomaly detection, and visualizations. |
-| **[Foster Caregiver AI Support](https://teme251.github.io/teme251/#case-foster)** | A chatbot and web app for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue. |
-| **[Crypto Ranking App and CryptoAPI](https://teme251.github.io/teme251/#case-crypto)** | A Flask dashboard and Python API for fetching, ranking, and presenting cryptocurrency data. |
-| **[MaxFit AI Chatbot](https://teme251.github.io/teme251/#case-maxfit)** | A fitness question-and-answer chatbot prototype. |
+| **[Student Performance Pattern Analysis](https://teme251.github.io/teme251/project-student.html)** | A Python and Streamlit ML project with data preparation, model evaluation, clustering, anomaly detection, and visualizations. |
+| **[Foster Caregiver AI Support](https://teme251.github.io/teme251/project-foster.html)** | A chatbot and web app for foster-caregiver FAQs and tailored responses for Angels Among Us Pet Rescue. |
+| **[Crypto Ranking App and CryptoAPI](https://teme251.github.io/teme251/project-crypto.html)** | A Flask dashboard and Python API for fetching, ranking, and presenting cryptocurrency data. |
+| **[MaxFit AI Chatbot](https://teme251.github.io/teme251/project-maxfit.html)** | A fitness question-and-answer chatbot prototype. |
 
 ## Public code
 
