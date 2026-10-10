@@ -6,10 +6,27 @@
 <p align="center"><strong>AI Engineer</strong></p>
 <p align="center">I combine applied AI, software engineering, and entrepreneurial thinking to turn ideas into working products. My strength is connecting technical possibilities with real human and business needs—defining the problem, designing the solution, and building the software that brings it to life.</p>
 <p align="center">
+  <a href="https://pragmenza.com">Pragmenza</a> ·
   <a href="https://teme251.github.io/teme251/">Explore the interactive portfolio</a> ·
   <a href="https://www.linkedin.com/in/teme251/">LinkedIn</a> ·
   <a href="mailto:pmtemesgen@icloud.com">Email</a>
 </p>
+
+## Custom dashboards & automation with Pragmenza
+
+Through **[Pragmenza](https://pragmenza.com)**, I offer scoped custom software, reporting dashboards, and workflow automation for defined business needs.
+
+Have a recurring report or an operational workflow that is difficult to review? A useful starting brief describes:
+
+- **The decision:** what your team needs to see or act on.
+- **The workflow:** the tools and types of data you use today.
+- **The result:** the dashboard, internal tool, or repeatable process you want.
+
+[Explore custom software & automation](https://pragmenza.com/services/custom-software-ai-automation) · **[Start a project brief](https://pragmenza.com/inquiry?service=custom_ai_software_build)**
+
+Implementation depends on feasibility, approved access, and an agreed written scope. Keep the initial brief high-level; do not include personal records, client identifiers, passwords, or sensitive data.
+
+For a technical example, explore the [RSA dashboard prototypes](https://teme251.github.io/teme251/project-rsa.html) below. They demonstrate interface and reporting patterns with sample data. They are not Pragmenza client projects or evidence of production results.
 
 ## AI and data projects
 
@@ -37,9 +54,9 @@ The **[RSA Operational Analytics & Performance Review](https://teme251.github.io
 
 | Repository | Explore |
 | --- | --- |
-| **[RSA Monitor](https://github.com/teme251/rsa-monitor)** | Weighted scorecards, searchable and sortable records, and individual coaching context. |
-| **[RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3)** | Structured observation capture, category ratings, checklist responses, and JSON submission. |
-| **[RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3)** | Date-range analysis, category aggregates, checklist completion, and Chart.js trend views. |
+| **[RSA Monitor](https://github.com/teme251/rsa-monitor)** | Standalone sample-data dashboard: weighted scorecards, searchable and sortable records, and individual coaching context. No backend required. |
+| **[RSA Ops Portal v3](https://github.com/teme251/rsa-ops-portal-v3)** | Front-end prototype for structured observation capture, category ratings, checklist responses, and JSON submission. A compatible backend is required for submissions. |
+| **[RSA Performance Metrics v3](https://github.com/teme251/RSA-PMS-v3)** | Front-end reporting prototype with date-range analysis, category aggregates, checklist completion, and Chart.js trend views. A compatible backend is required to display records. |
 
 ### Recent public code updates
 
@@ -77,3 +94,4 @@ My background includes entrepreneurship at **Priority Parking Solutions**, AI/so
 **[QENÉ & CODE](https://teme251.github.io/teme251/music.html)** is an AI-directed music and visual storytelling project under the artist name Teme251. The 13-track Ethiopian album connects personal writing, creative direction, AI-enabled production, and a cohesive visual identity.
 
 [Apple Music](https://music.apple.com/album/6803089269) · [YouTube](https://www.youtube.com/channel/UCIlEJD_ez00ATB5yejwNp7w) · [Instagram](https://www.instagram.com/teme251/) · [Facebook](https://www.facebook.com/Teme251/)
+
